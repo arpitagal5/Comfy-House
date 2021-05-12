@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <img src="images/logo.svg" >
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">FURNITURE COLLECTION</h1>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+    </header>
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+
+        </div>
+    </section>
+    <div class="cart-overlay">
+        <div class="cart ">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+
+            </div>
+            <div class="cart-footer">
+                <h3>Your Total : $ <span class="cart-total">price</span></h3>
+                <button class="clear-cart banner-btn">clear Cart</button> 
+            </div>
+        </div>      
+    </div>
+    <div class="userAuth">
+        <div class="userNav">
+            <div class="user-head">
+                <h2>Comfy House</h2>
+                <h4>Good to see you!!</h4>
+                <span class="minimize"><i>&lt</i></span>
+            </div>
+            <input type ="email" placeholder="Enter Email" />
+            <input type="password" placeholder="Enter password" />
+            <button>LogIn</button>
+            <button>LogOut</button>
+            <button>SignIn</button>
+        </div>
+    
+    </div>
+<script  src ="script.js"></script>
+</body>
+</html>
+
+
+
+
+
